@@ -49,12 +49,13 @@ header nav ul {
 .treiding .activ {
     z-index: 1;
     position: absolute;
-    margin: 0 -20px;
+    margin: 0 -10px;
 
 }
 .treiding .deactiv {
     z-index: 2;
     position: absolute;
+    margin: 0 -10px;
 }
 .treiding .mg {
     position: absolute;
@@ -62,11 +63,11 @@ header nav ul {
 .treiding .gg {
     margin-top: -100px;
 }
-/* .treiding li.btn {
-    background: #96BB7C;
-    padding: 30px 15px;
+.treiding li.btn {
+    background: #ffffff;
+    padding: 50px 15px;
     z-index: -1;
-} */
+}
 .treiding h6{
     color: #96BB7C;
     font-weight: 700;
@@ -99,7 +100,7 @@ header nav ul {
 }
 .scool-prog {
     list-style: none;
-    margin-top: 80px;
+    margin-top: 0px;
  }
  .scool-prog nav ul li{
     display: inline-block;
@@ -109,9 +110,140 @@ header nav ul {
     margin-top: 30px;
     margin-bottom: 10px;
 }
+.btn a {
+    color: #000000;
+    font-weight: 700;
+}
+.lo a{
+    color: #E74040;
+    font-weight: 700;
+    margin: 14px 0;
+    font-size: 14px;
+}
+.lo a h4{
+    color: #000000;
+}
+/* кнопки */
+.treiding li.btn{
+    background: #ffffff;
+    padding: 15px 40px;
+    z-index: -1;
+    padding-top: 130px;
+}
+.treiding li.btn.ah:hover {
+    .lo {
+        .ap{
+            h4{
+                color: #ffffff;
+            }
+            a{
+                color: #ffffff;
+            }
+            .activ {
+                z-index: 3;
+            }
+        }
+        a{
+         color: #ffffff;
+            font-weight: 700;
+            margin: 14px 0;
+            font-size: 14px;
+        } 
+    }
+    background: #96BB7C;
+    padding: 15px 40px;
+    z-index: -1;
+    color: #ffffff;
+    padding-top: 130px;
+}
+.treiding li.btn.bh:hover {
+    .lo {
+        .bp{
+            h4{
+                color: #ffffff;
+            }
+            a{
+                color: #ffffff;
+            }
+            .activ {
+                z-index: 3;
+            }
+        }
+        a{
+         color: #ffffff;
+            font-weight: 700;
+            margin: 14px 0;
+            font-size: 14px;
+        } 
+    }
+    
+    background: #96BB7C;
+    padding: 15px 40px;
+    z-index: -1;
+    color: #ffffff;
+    padding-top: 130px;
+}
+.treiding li.btn.ch:hover {
+    .lo {
+        .cp{
+            h4{
+                color: #ffffff;
+            }
+            a{
+                color: #ffffff;
+            }
+            .activ {
+                z-index: 3;
+            }
+        }
+        a{
+         color: #ffffff;
+            font-weight: 700;
+            margin: 14px 0;
+            font-size: 14px;
+        } 
+    }
+    
+    background: #96BB7C;
+    padding: 15px 40px;
+    z-index: -1;
+    color: #ffffff;
+    padding-top: 130px;
+}
+.treiding li.btn.dh:hover {
+    .lo {
+        .dp{
+            h4{
+                color: #ffffff;
+            }
+            a{
+                color: #ffffff;
+            }
+            .activ {
+                z-index: 3;
+            }
+        }
+        a{
+         color: #ffffff;
+            font-weight: 700;
+            margin: 14px 0;
+            font-size: 14px;
+        } 
+    }
+    
+    background: #96BB7C;
+    padding: 15px 40px;
+    z-index: -1;
+    color: #ffffff;
+    padding-top: -50px;
+    padding-top: 130px;
+}
+
 /* ====================================================================== */
 /* 3 часть  */
-
+.hero--info {
+    margin: -330px 0 0 650px;
+}
 /* ====================================================================== */
 /* 4 часть  */
 
@@ -120,7 +252,173 @@ header nav ul {
 
 /* ====================================================================== */
 /* 6 часть  */
+.contaen.treiding{
+    padding: 80px 0;
+}
+.trei{
+    padding-top: 200px;
+}
+.trei .hero-img{
+    z-index: 10;
+    position: absolute;
+    margin: 14px 0;
+}
+.trei .activ {
+    z-index: 1;
+    position: absolute;
+    margin: 0 -10px;
 
+}
+.trei .deactiv {
+    z-index: 2;
+    position: absolute;
+    margin: 0 -10px;
+}
+.trei .mg {
+    position: absolute;
+}
+.trei .gg {
+    margin-top: -100px;
+    margin: -150px 85px;
+}
+.trei li.btn {
+    background: #ffffff;
+    padding: 50px 15px;
+    z-index: -1;
+}
+.trei h6{
+    color: #96BB7C;
+    font-weight: 700;
+    margin: 14px 0;
+    font-size: 14px;
+
+}
+.trei h2{
+    font-weight: 700;
+    margin: 14px 0;
+    font-size: 40px;
+
+}
+.trei p{
+    font-weight: 400;
+    font-size: 14px;
+  
+}
+.trei .curs{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 140px 0;
+}
+.curs {
+    list-style: none;
+    margin-top: 0px;
+ }
+ .curs nav ul li{
+    display: inline-block;
+ }
+
+.bloc- p {
+    margin-top: 120px;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+.btn- a {
+    color: #000000;
+    font-weight: 700;
+}
+ .cn a{
+    background: #96BB7C;
+    padding: 20px 100px;
+    z-index: -1;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+}
+.los a h4{
+    color: #8EC2F2;
+    margin: 50px 100px;
+}
+/* кнопки */
+.trei li.btn-{
+    background: #ffffff;
+    padding: 15px 40px;
+    z-index: -1;
+    padding-top: 130px;
+}
+
+.trei li.btn-.bh:hover {
+    .los {
+        .bp{
+            a{
+                color: #ffffff;
+            }
+            .activ {
+                z-index: 3;
+            }
+        }
+        a{
+         color: #ffffff;
+            font-weight: 700;
+            margin: 14px 0;
+            font-size: 14px;
+        } 
+    }
+    
+    background: #2D4059;
+    padding: 15px 40px;
+    z-index: -1;
+    color: #ffffff;
+    padding-top: 130px;
+}
+.trei li.btn-.ch:hover {
+    .los {
+        .cp{
+            a{
+                color: #ffffff;
+            }
+            .activ {
+                z-index: 3;
+            }
+        }
+        a{
+         color: #ffffff;
+            font-weight: 700;
+            margin: 14px 0;
+            font-size: 14px;
+        } 
+    }
+    
+    background: #2D4059;
+    padding: 15px 40px;
+    z-index: -1;
+    color: #ffffff;
+    padding-top: 130px;
+}
+.trei li.btn-.dh:hover {
+    .los {
+        .dp{
+            a{
+                color: #ffffff;
+            }
+            .activ {
+                z-index: 3;
+            }
+        }
+        a{
+         color: #ffffff;
+            font-weight: 700;
+            margin: 14px 0;
+            font-size: 14px;
+        } 
+    }
+    
+    background: #2D4059;
+    padding: 15px 40px;
+    z-index: -1;
+    color: #ffffff;
+    padding-top: 130px;
+}
 /* ====================================================================== */
 /* 7 часть  */
 
