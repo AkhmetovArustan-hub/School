@@ -15,8 +15,8 @@ a {
     color: #96BB7C;
 }
 /* =================================================================== */
-/*  */
-.hero-info{
+/* Моя ч */
+.hero-infoo{
     width: 1100px;
     margin: 30px auto;
 }
@@ -32,9 +32,160 @@ header nav ul {
     list-style: none;
 }
 /* ====================================================================== */
-/* 1 часть заголовок */
+/* шапка Его ч */
+/* section nav .name h2{
+    width: 176px;
+    height: 32px;
+    top: 13px;
+    font-weight: 700;
+    size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    cursor: pointer;
+    margin: 7px 0;
+}
+
+section nav .name ul{
+    list-style: none;
+    margin-left: 210px;
+    margin-top: -33px;
+}
+
+section nav .name ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+section nav .name ul li a{
+    text-decoration: none;
+    color: #595959;
+    font-weight: 700;
+    font-size: 14px;
+    transition: 0.1s;
+    width: 43px;
+    height: 24px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+section nav .name ul li a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #000;
+    display: block;
+    transition: 0.2s linear;
+}
+
+section nav .name ul li a:hover::after{
+    width: 100%;
+}
+
+section nav .name ul li a:hover{
+    color: #000;
+}
+
+section nav ul .btn {
+    background: #96BB7C;
+    color: #fff;
+    border-radius: 5px;
+    padding: 16px 30px;
+    border: 0;
+    transition: all 500ms ease;
+    margin-top: -25px;
+}
+
+section nav ul .btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+section nav ul .more_btn {
+     background-color: #fff;
+     border: 5px #96BB7C;
+     color: #96BB7C;
+     padding: 16px 30px;
+     border-radius: 5px;
+     transition: all 500ms ease;
+     font-size: 18px;
+}
+
+section nav ul .more_btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+} */
 /* ====================================================================== */
-/* 2 часть выбор курса */
+/* 1 часть заголовок Его ч */
+.hero{
+    padding-bottom: 100px;
+}
+
+.hero--info{
+    width: 573px;
+    padding-top: 200px;
+    height: 386px;
+    gap: 30px;
+    margin-left: 250px;
+}
+
+.hero--info h5 {
+    color: #96BB7C;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1;
+}
+
+.hero--info h1 {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    margin-top: 40px;
+}
+
+.hero--info h4 {
+    width: 458px;
+    height: 60px;
+    color: gray;
+    line-height: 30px;
+    font-weight: 400px;
+    size: 20px;
+    letter-spacing: 0.2px;
+    margin-top: 30px;
+}
+
+.hero--info .btn {
+    background: #96BB7C;
+    color: #fff;
+    border-radius: 5px;
+    padding: 16px 30px;
+    border: 0;
+    transition: all 500ms ease;
+    margin-top: 30px;
+}
+
+.hero--info .btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.hero--info .more_btn {
+     background-color: #fff;
+     border: 5px #96BB7C;
+     color: #96BB7C;
+     padding: 16px 30px;
+     border-radius: 5px;
+     transition: all 500ms ease;
+     font-size: 18px;
+}
+
+.hero--info .more_btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+/* ====================================================================== */
+/* 2 часть выбор курса Моя ч*/
 .contaener.treiding{
     padding: 80px 0;
 }
@@ -240,18 +391,198 @@ header nav ul {
 }
 
 /* ====================================================================== */
-/* 3 часть  */
-.hero--info {
+/* 3 часть  Моя ч*/
+.hero--infoo {
     margin: -330px 0 0 650px;
+    margin-top: -300px;
 }
 /* ====================================================================== */
-/* 4 часть  */
+/* 4 часть  Его ч*/
+.hero img {
+    width: 700px;
+    position: relative;
+    margin-top: -350px;
+}
 
-/* ====================================================================== */
-/* 5 часть  */
+.hero-info{
+    width: 573px;
+    padding-top: 200px;
+    height: 386px;
+    gap: 30px;
+}
 
+.hero-info h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    margin-top: 100px;
+}
+
+.hero-info p{
+    width: 345px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    margin-top: 40px;
+    color: gray;
+}
+
+.hero-info .more_btn {
+     background-color: #fff;
+     border: 5px #96BB7C;
+     color: #96BB7C;
+     padding: 16px 30px;
+     border-radius: 5px;
+     transition: all 500ms ease;
+     font-size: 18px;
+     margin-left: -30px;
+     margin-top: 80px;
+}
+
+.hero-info .more_btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.hero-info .video{
+    width: 500px;
+    position: relative;
+    margin-top: -300px;
+    left: 550px; 
+    border-radius: 20px;
+}
 /* ====================================================================== */
-/* 6 часть  */
+/* 5 часть Его ч */
+/* .menu{
+    margin-top: 200px;
+    margin-left: 250px;
+} */
+
+/* .menu h6{
+    color: #96BB7C;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1;
+}
+
+.menu h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    margin-top: 20px;
+}
+
+.menu p{
+    width: 345px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    margin-top: 20px;
+    color: gray;
+}
+
+.main_menu{
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+.main_menu .menu_box{
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    margin-left: 1px;
+}
+
+.main_menu .menu_card .menu_info{
+    margin-left: 15px;
+}
+
+.main_menu .menu_card .more_btn {
+     background-color: #fff;
+     border: 5px #96BB7C;
+     color: #96BB7C;
+     padding: 16px 30px;
+     border-radius: 5px;
+     transition: all 500ms ease;
+     font-size: 14px;
+     margin-left: -30px;
+     margin-top: 3px;
+     font-weight: 700;
+}
+
+.main_menu .menu_card .more_btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.main_menu .menu_card .menu_info h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.main_menu .menu_card .menu_info p {
+    font-weight: 600;
+    color: #595959;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    margin-top: 5px;
+}
+
+.main_menu .menu_card .menu_info h6{
+    width: 57px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.main_menu .menu_card .menu_info .prices {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main_menu .menu_card .menu_info .prices .old_prise {
+    color: #bdbdbd;
+}
+
+.main_menu .menu_card .menu_info .prices .new_prise {
+    color: #ffab71;
+}
+
+.main_menu .menu_card .menu_info .btn{
+    width: 141.14px;
+    height: 44px;
+    border-radius: 37px;
+    border: 5px;
+    border-color: #96BB7C;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    gap: 10px;
+    background-color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #96BB7C;
+} */
+/* ====================================================================== */
+/* 6 часть моя ч */
 .contaen.treiding{
     padding: 80px 0;
 }
@@ -291,7 +622,7 @@ header nav ul {
     font-weight: 700;
     margin: 14px 0;
     font-size: 14px;
-
+    margin-top: 100px;
 }
 .trei h2{
     font-weight: 700;
@@ -319,9 +650,10 @@ header nav ul {
  }
 
 .bloc- p {
-    margin-top: 120px;
+    /* margin-top: 120px; */
     margin-bottom: 10px;
-    padding: 30px;
+    padding: 15px;
+    text-align: center;
 }
 .btn- a {
     color: #000000;
@@ -337,19 +669,35 @@ header nav ul {
 }
 .los a h4{
     color: #8EC2F2;
-    margin: 50px 100px;
+    text-align: center;
+}
+.trei .los .pp h3{
+    color: #000000;
+    text-align: center;
+}
+.trei .los .pp a h1 {
+    color: #96BB7C;
+    text-align: center;
+    margin: 10px 0;
+    margin-top: 20px;
+}
+.bloc- .new{
+    margin: -250px 260px;
 }
 /* кнопки */
 .trei li.btn-{
     background: #ffffff;
     padding: 15px 40px;
     z-index: -1;
-    padding-top: 130px;
+    padding-top: 150px;
 }
 
 .trei li.btn-.bh:hover {
     .los {
         .bp{
+            h3{
+                color: #ffffff;
+            }
             a{
                 color: #ffffff;
             }
@@ -369,11 +717,15 @@ header nav ul {
     padding: 15px 40px;
     z-index: -1;
     color: #ffffff;
-    padding-top: 130px;
+    padding-top: 200px;
+    padding-bottom: 50px;
 }
 .trei li.btn-.ch:hover {
     .los {
         .cp{
+            h3{
+                color: #ffffff;
+            }
             a{
                 color: #ffffff;
             }
@@ -393,11 +745,15 @@ header nav ul {
     padding: 15px 40px;
     z-index: -1;
     color: #ffffff;
-    padding-top: 130px;
+    padding-top: 200px;
+    padding-bottom: 50px;
 }
 .trei li.btn-.dh:hover {
     .los {
         .dp{
+            h3{
+                color: #ffffff;
+            }
             a{
                 color: #ffffff;
             }
@@ -417,13 +773,111 @@ header nav ul {
     padding: 15px 40px;
     z-index: -1;
     color: #ffffff;
-    padding-top: 130px;
+    padding-top: 200px;
+    padding-bottom: 50px;
 }
 /* ====================================================================== */
-/* 7 часть  */
+/* 7 часть Его ч */
+/* .stars{
+    margin-left: 250px;
+    margin-top: 150px;
+} */
 
+.stars h6{
+    color: #96BB7C;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1;
+
+}
+
+.stars h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    margin-top: 20px;
+
+}
+
+.stars p{
+    height: 40px;
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    margin-top: 20px;
+    color: gray;
+
+}
+
+.stars .score img{
+    margin-top: 100px;
+
+}
 /* ====================================================================== */
-/* 8 часть  */
-
+/* 8 часть моя ч */
+/* .wrapper {
+    background: #FFF2F3;
+    width: 150%;
+    margin: 0 -270px;
+}
+.treiding--{
+    text-align: center;
+} */
 /* ====================================================================== */
 /* Телефон */
+/* ========================================================================= */
+/* адаптив (Медиа запросы) */
+ @media screen and (max-width: 800px){
+
+    .Name{
+        font-size: 22px;
+    }
+    header.container{
+        justify-content: center;
+        gap: 15px;
+    }
+    .carousel{
+        width: 85%;
+    }
+
+    .hero--info {
+        margin: 50px 15px;/*уменьшает отступы*/
+        gap: 15px;/*слегка уменьшит раст меж заголовками*/
+    }
+
+    .hero--info h1 {
+        font-size: 28px;/*компактные заголовки*/
+    }
+
+}
+@media screen and (max-width: 480px){
+
+    header nav ul {
+        gap: 10px;
+    }
+    header nav ul li.btn a{
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+
+    .hero--info h1 {
+        font-size: 24px;/*компактные заголовки*/
+    }
+
+    .hero--info .btn{
+        width: 100%;/*растягивает кнопку чтобы легко попасть */
+        max-width: 300px;/*ограничение по размерам*/
+    }
+
+    .hero--info p {
+        margin-left: 0;
+        text-align: center;
+        padding: 0 15px;
+    }
+    .carousel{
+        max-width: 1500px;
+    }
+}
