@@ -33,7 +33,7 @@ header nav ul {
 }
 /* ====================================================================== */
 /* шапка Его ч */
-/* section nav .name h2{
+section nav .name h2{
     width: 176px;
     height: 32px;
     top: 13px;
@@ -44,13 +44,13 @@ header nav ul {
     cursor: pointer;
     margin: 7px 0;
 }
-
+/* ====================================== */
 section nav .name ul{
     list-style: none;
     margin-left: 210px;
     margin-top: -33px;
 }
-
+/* ====================================== */
 section nav .name ul li{
     display: inline-block;
     margin: 0 15px;
@@ -80,11 +80,9 @@ section nav .name ul li a::after{
 section nav .name ul li a:hover::after{
     width: 100%;
 }
-
 section nav .name ul li a:hover{
     color: #000;
 }
-
 section nav ul .btn {
     background: #96BB7C;
     color: #fff;
@@ -113,7 +111,7 @@ section nav ul .more_btn {
 section nav ul .more_btn:hover {
     cursor: pointer;
     transform: scale(1.1);
-} */
+}
 /* ====================================================================== */
 /* 1 часть заголовок Его ч */
 .hero{
@@ -124,8 +122,9 @@ section nav ul .more_btn:hover {
     width: 573px;
     padding-top: 200px;
     height: 386px;
-    gap: 30px;
-    margin-left: 250px;
+    gap: 30px;  
+    margin-left: -100px;
+    margin-top: -300px;
 }
 
 .hero--info h5 {
@@ -134,6 +133,7 @@ section nav ul .more_btn:hover {
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0.1;
+    margin-top: 300px;
 }
 
 .hero--info h1 {
@@ -171,18 +171,22 @@ section nav ul .more_btn:hover {
 }
 
 .hero--info .more_btn {
-     background-color: #fff;
-     border: 5px #96BB7C;
-     color: #96BB7C;
-     padding: 16px 30px;
-     border-radius: 5px;
-     transition: all 500ms ease;
-     font-size: 18px;
+    background-color: #fff;
+    border: 5px #96BB7C;
+    color: #96BB7C;
+    padding: 16px 30px;
+    border-radius: 5px;
+    transition: all 500ms ease;
+    font-size: 18px;
 }
 
 .hero--info .more_btn:hover {
     cursor: pointer;
     transform: scale(1.1);
+}
+.hero img{
+    margin-left: 500px;
+    
 }
 /* ====================================================================== */
 /* 2 часть выбор курса Моя ч*/
@@ -241,14 +245,16 @@ section nav ul .more_btn:hover {
 .treiding p{
     font-weight: 400;
     font-size: 14px;
-  
+    color: #737373;
 }
+/* ==================== */
 .treiding .scool-prog{
     display: flex;
     justify-content: space-between;
     width: 100%;
     padding: 140px 0;
 }
+/* =================== */
 .scool-prog {
     list-style: none;
     margin-top: 0px;
@@ -301,6 +307,9 @@ section nav ul .more_btn:hover {
             font-size: 14px;
         } 
     }
+    p{
+        Color: #ffffff;
+    }
     background: #96BB7C;
     padding: 15px 40px;
     z-index: -1;
@@ -327,7 +336,9 @@ section nav ul .more_btn:hover {
             font-size: 14px;
         } 
     }
-    
+    p{
+        Color: #ffffff;
+    }
     background: #96BB7C;
     padding: 15px 40px;
     z-index: -1;
@@ -354,7 +365,9 @@ section nav ul .more_btn:hover {
             font-size: 14px;
         } 
     }
-    
+    p{
+        Color: #ffffff;
+    }
     background: #96BB7C;
     padding: 15px 40px;
     z-index: -1;
@@ -381,7 +394,9 @@ section nav ul .more_btn:hover {
             font-size: 14px;
         } 
     }
-    
+    p{
+        Color: #ffffff;
+    }
     background: #96BB7C;
     padding: 15px 40px;
     z-index: -1;
@@ -396,17 +411,34 @@ section nav ul .more_btn:hover {
     margin: -330px 0 0 650px;
     margin-top: -300px;
 }
+.hero--infoo .more_btn{
+     background-color: #fff;
+     border: 5px #96BB7C;
+     color: #96BB7C;
+     padding: 16px 30px;
+     border-radius: 5px;
+     transition: all 500ms ease;
+     font-size: 18px;
+     margin-left: -30px;
+     margin-top: 40px;
+}
+.hero--infoo h1{
+    margin-top: 30px;
+}
+.hero--infoo {
+    .col{
+        color: #737373;
+    }
+}
 /* ====================================================================== */
 /* 4 часть  Его ч*/
-.hero img {
-    width: 700px;
-    position: relative;
-    margin-top: -350px;
+.hero--infoo .ff{
+margin: 5px;
+margin-left: -650px;
 }
-
 .hero-info{
-    width: 573px;
-    padding-top: 200px;
+    /* width: 573px; */
+    padding-top: 880px;
     height: 386px;
     gap: 30px;
 }
@@ -416,7 +448,7 @@ section nav ul .more_btn:hover {
     font-weight: 700;
     line-height: 50px;
     letter-spacing: 0.2px;
-    margin-top: 100px;
+    margin-top: 5px;
 }
 
 .hero-info p{
@@ -426,7 +458,7 @@ section nav ul .more_btn:hover {
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.2px;
-    margin-top: 40px;
+    margin-top: 25px;
     color: gray;
 }
 
@@ -439,7 +471,7 @@ section nav ul .more_btn:hover {
      transition: all 500ms ease;
      font-size: 18px;
      margin-left: -30px;
-     margin-top: 80px;
+     margin-top: 40px;
 }
 
 .hero-info .more_btn:hover {
@@ -450,18 +482,17 @@ section nav ul .more_btn:hover {
 .hero-info .video{
     width: 500px;
     position: relative;
-    margin-top: -300px;
+    margin-top: -700px;
     left: 550px; 
     border-radius: 20px;
 }
 /* ====================================================================== */
 /* 5 часть Его ч */
-/* .menu{
-    margin-top: 200px;
-    margin-left: 250px;
-} */
+.menu{
+    margin-top: 500px;
+}
 
-/* .menu h6{
+.menu h6{
     color: #96BB7C;
     font-size: 16px;
     font-weight: 700;
@@ -475,6 +506,7 @@ section nav ul .more_btn:hover {
     line-height: 50px;
     letter-spacing: 0.2px;
     margin-top: 20px;
+
 }
 
 .menu p{
@@ -489,13 +521,12 @@ section nav ul .more_btn:hover {
 }
 
 .main_menu{
-    margin-left: 250px;
     margin-top: 100px;
 }
 
 .main_menu .menu_box{
-    width: 60%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 15px;
@@ -580,7 +611,7 @@ section nav ul .more_btn:hover {
     line-height: 24px;
     letter-spacing: 0.2px;
     color: #96BB7C;
-} */
+}
 /* ====================================================================== */
 /* 6 часть моя ч */
 .contaen.treiding{
@@ -633,7 +664,7 @@ section nav ul .more_btn:hover {
 .trei p{
     font-weight: 400;
     font-size: 14px;
-  
+    color: #737373;
 }
 .trei .curs{
     display: flex;
@@ -778,10 +809,6 @@ section nav ul .more_btn:hover {
 }
 /* ====================================================================== */
 /* 7 часть Его ч */
-/* .stars{
-    margin-left: 250px;
-    margin-top: 150px;
-} */
 
 .stars h6{
     color: #96BB7C;
@@ -789,7 +816,7 @@ section nav ul .more_btn:hover {
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0.1;
-
+    margin-top: 100px;
 }
 
 .stars h2{
@@ -818,41 +845,415 @@ section nav ul .more_btn:hover {
 }
 /* ====================================================================== */
 /* 8 часть моя ч */
-/* .wrapper {
+.wrapper {
+    .brt{
+        background: #96BB7C;
+        color: #fff;
+        border-radius: 5px;
+        padding: 16px 30px;
+        border: 0;
+        transition: all 500ms ease;
+        margin-top: 80px;
+    }
     background: #FFF2F3;
-    width: 150%;
+    width: 1575px;
     margin: 0 -270px;
+    margin-top: 200px;
 }
 .treiding--{
     text-align: center;
-} */
+}
+
 /* ====================================================================== */
 /* Телефон */
 /* ========================================================================= */
 /* адаптив (Медиа запросы) */
  @media screen and (max-width: 800px){
+.hero-infoo{
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+/* ========================== */
+.rol p{
+    display: none;
+}
+.rol h6{
+    display: none;
+}
+.rol button{
+    display: none;
+}
+/* =================================================================== */
+/* Моя ч */
+.hero-infoo{
+    width: 1100px;
+    margin: 30px auto;
+}
+/* ====================================================================== */
+/* 1 часть заголовок Его ч */
+    .hero{
+        padding-bottom: 100px;
+    }
 
-    .Name{
-        font-size: 22px;
-    }
-    header.container{
-        justify-content: center;
-        gap: 15px;
-    }
-    .carousel{
-        width: 85%;
+    .hero--info{
+        /* width: 573px; */
+        padding-top: 200px;
+        height: 386px;
+        gap: 30px;  
+        /* margin-left: -100px;
+        margin-top: -300px; */
     }
 
-    .hero--info {
-        margin: 50px 15px;/*уменьшает отступы*/
-        gap: 15px;/*слегка уменьшит раст меж заголовками*/
+    .hero--info h5 {
+        color: #96BB7C;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.1;
+        margin-top: 300px;
     }
 
     .hero--info h1 {
-        font-size: 28px;/*компактные заголовки*/
+        /* font-size: 58px;
+        font-weight: 700;
+        line-height: 80px;
+        letter-spacing: 0.2px;
+        margin-top: 40px; */
     }
 
+    .hero--info h4 {
+    display: none;
+    }
+
+    .hero--info .btn {
+        background: #96BB7C;
+        color: #fff;
+        border-radius: 5px;
+        padding: 16px 30px;
+        border: 0;
+        transition: all 500ms ease;
+        /* margin-top: 30px; */
+    }
+
+    .hero--info .btn:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
+    .hero--info .more_btn {
+        background-color: #fff;
+        border: 5px #96BB7C;
+        color: #96BB7C;
+        padding: 16px 30px;
+        border-radius: 5px;
+        transition: all 500ms ease;
+        font-size: 18px;
+    }
+
+    .hero--info .more_btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    }
+    .hero img{
+        /* margin-left: 500px; */
+        display: none;
+    }
+/* ====================================================================== */
+/* 2 часть выбор курса Моя ч*/
+    .contaener.treiding{
+        padding: 500px 0;
+    }
+    .treiding{
+        padding-top: 100px;
+    }
+    .treiding .hero-img{
+        z-index: 10;
+        position: absolute;
+        margin: 14px 0;
+    }
+    .treiding .activ {
+        z-index: 1;
+        position: absolute;
+        margin: 0 -10px;
+
+    }
+    .treiding .deactiv {
+        z-index: 2;
+        position: absolute;
+        margin: 0 -10px;
+    }
+    .treiding .mg {
+        position: absolute;
+    }
+    .treiding .gg {
+        margin-top: -100px;
+    }
+    .treiding li.btn {
+        background: #ffffff;
+        padding: 50px 15px;
+        z-index: -1;
+    }
+    .lo a{
+        color: #E74040;
+        font-weight: 700;
+        margin: 14px 0;
+        font-size: 14px;
+    }
+    .treiding h2{
+        font-weight: 700;
+        margin: 14px 0;
+        font-size: 40px;
+
+    }
+    .treiding .scool-prog{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 140px 0px;
+    text-align: center;    
+    }
+    .scool-prog {
+        list-style: none;
+        margin-top: 0px;
+    }
+    .scool-prog nav ul li{
+        display: inline-block;
+    }
+    .btn a {
+        font-weight: 700;
+    }
+    .lo a{
+        font-weight: 700;
+        margin: 14px 0;
+        font-size: 14px;
+    }
+/* ====================================================================== */
+/* 3 часть  Моя ч*/
+    .hero--infoo {
+        margin: -330px 0 0 650px;
+        margin-top: -300px;
+    }
+    .hero--infoo .more_btn{
+        border: 5px #96BB7C;
+        padding: 16px 30px;
+        border-radius: 5px;
+        transition: all 500ms ease;
+        font-size: 18px;
+        margin-left: -30px;
+        margin-top: 40px;
+    }
+    .hero--infoo h1{
+        margin-top: 30px;
+    }
+    .col{
+        display: none;
+    }
+/* ====================================================================== */
+/* 4 часть  Его ч*/
+    .hero--infoo .ff{
+    margin: 5px;
+    margin-left: -650px;
+    }
+    .hero-info{
+        padding-top: 880px;
+        height: 386px;
+        gap: 30px;
+    }
+
+    .hero-info h2 {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50px;
+        letter-spacing: 0.2px;
+        margin-top: 5px;
+    }
+
+    .hero-info p{
+        width: 345px;
+        height: 60px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        margin-top: 25px;
+    }
+
+    .hero-info .more_btn {
+        border: 5px #96BB7C;
+        padding: 16px 30px;
+        border-radius: 5px;
+        transition: all 500ms ease;
+        font-size: 18px;
+        margin-left: -30px;
+        margin-top: 40px;
+    }
+
+    .hero-info .more_btn:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
+    .hero-info .video{
+        width: 500px;
+        position: relative;
+        margin-top: -700px;
+        left: 550px; 
+        border-radius: 20px;
+    }
+/* ====================================================================== */
+/* 5 часть Его ч */
+    .menu{
+        margin-top: 500px;
+        display: none;
+    }
+
+    .main_menu{
+        margin-top: 100px;
+        display: none;
+    }
+/* 6 часть моя ч */
+    .contaen.treiding{
+        padding: 80px 0;
+    }
+    .trei{
+        padding-top: 200px;
+    }
+    .trei .hero-img{
+        z-index: 10;
+        position: absolute;
+        margin: 14px 0;
+    }
+    .trei .activ {
+        z-index: 1;
+        position: absolute;
+        margin: 0 -10px;
+
+    }
+    .trei .deactiv {
+        z-index: 2;
+        position: absolute;
+        margin: 0 -10px;
+    }
+    .trei .mg {
+        position: absolute;
+    }
+    .trei .gg {
+        margin-top: -100px;
+        margin: -150px 85px;
+    }
+    .trei li.btn {
+        background: #ffffff;
+        padding: 50px 15px;
+        z-index: -1;
+    }
+    .trei h6{
+        color: #96BB7C;
+        font-weight: 700;
+        margin: 14px 0;
+        font-size: 14px;
+        margin-top: 100px;
+    }
+    .trei h2{
+        font-weight: 700;
+        margin: 14px 0;
+        font-size: 40px;
+
+    }
+    .trei p{
+        font-weight: 400;
+        font-size: 14px;
+    
+    }
+    .trei .curs{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 140px 0;
+    }
+    .curs {
+        list-style: none;
+        margin-top: 0px;
+    }
+    .curs nav ul li{
+        display: inline-block;
+    }
+
+    .bloc- p {
+        /* margin-top: 120px; */
+        margin-bottom: 10px;
+        padding: 15px;
+        text-align: center;
+    }
+    .btn- a {
+        color: #000000;
+        font-weight: 700;
+    }
+    .cn a{
+        background: #96BB7C;
+        padding: 20px 100px;
+        z-index: -1;
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    .los a h4{
+        color: #8EC2F2;
+        text-align: center;
+    }
+    .trei .los .pp h3{
+        color: #000000;
+        text-align: center;
+    }
+    .trei .los .pp a h1 {
+        color: #96BB7C;
+        text-align: center;
+        margin: 10px 0;
+        margin-top: 20px;
+    }
+/* 7 часть Его ч */
+
+    .stars h6{
+        color: #96BB7C;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.1;
+        margin-top: 100px;
+    }
+
+    .stars h2{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50px;
+        letter-spacing: 0.2px;
+        margin-top: 20px;
+
+    }
+
+    .stars p{
+        height: 40px;
+        font-weight: 550;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        margin-top: 20px;
+        color: gray;
+
+    }
+
+    .stars .score img{
+        margin-top: 100px;
+
+    }
 }
+/* ====================================================================== */
+/* 8 */
+.wrapper {
+    display: none;
+}
+
+/* ============================================================================================================================== */
 @media screen and (max-width: 480px){
 
     header nav ul {
