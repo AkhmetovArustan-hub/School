@@ -31,6 +31,12 @@ header {
 header nav ul {
     list-style: none;
 }
+.fon{
+    position: absolute;
+    margin: -40px -230px;
+    z-index: -1;
+    width: 1535px;
+}
 /* ====================================================================== */
 /* шапка Его ч */
 section nav .name h2{
@@ -119,7 +125,7 @@ section nav ul .more_btn:hover {
 }
 
 .hero--info{
-    width: 573px;
+    /* width: 573px; */
     padding-top: 200px;
     height: 386px;
     gap: 30px;  
@@ -142,6 +148,9 @@ section nav ul .more_btn:hover {
     line-height: 80px;
     letter-spacing: 0.2px;
     margin-top: 40px;
+}
+.hero--info .fool h1 {
+    display: none;
 }
 
 .hero--info h4 {
@@ -185,8 +194,8 @@ section nav ul .more_btn:hover {
     transform: scale(1.1);
 }
 .hero img{
-    margin-left: 500px;
-    
+    margin-left: 565px;
+    margin-top: -25px;
 }
 /* ====================================================================== */
 /* 2 часть выбор курса Моя ч*/
@@ -432,7 +441,7 @@ section nav ul .more_btn:hover {
 }
 /* ====================================================================== */
 /* 4 часть  Его ч*/
-.hero--infoo .ff{
+      .hero--infoo .ff{
 margin: 5px;
 margin-left: -650px;
 }
@@ -681,7 +690,6 @@ margin-left: -650px;
  }
 
 .bloc- p {
-    /* margin-top: 120px; */
     margin-bottom: 10px;
     padding: 15px;
     text-align: center;
@@ -720,7 +728,8 @@ margin-left: -650px;
     background: #ffffff;
     padding: 15px 40px;
     z-index: -1;
-    padding-top: 150px;
+    padding-top: 200px;
+    padding-bottom: 50px;
 }
 
 .trei li.btn-.bh:hover {
@@ -743,7 +752,9 @@ margin-left: -650px;
             font-size: 14px;
         } 
     }
-    
+    p {
+        Color: #ffffff;
+    }
     background: #2D4059;
     padding: 15px 40px;
     z-index: -1;
@@ -771,7 +782,9 @@ margin-left: -650px;
             font-size: 14px;
         } 
     }
-    
+    p {
+        Color: #ffffff;
+    }
     background: #2D4059;
     padding: 15px 40px;
     z-index: -1;
@@ -799,7 +812,9 @@ margin-left: -650px;
             font-size: 14px;
         } 
     }
-    
+    p {
+        Color: #ffffff;
+    }
     background: #2D4059;
     padding: 15px 40px;
     z-index: -1;
@@ -866,6 +881,186 @@ margin-left: -650px;
 
 /* ====================================================================== */
 /* Телефон */
+.Contact{
+    color: #ffffff;
+    width: 1440px;
+    height: 272px;
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin-left: 250px;
+}
+
+.Contact .Company_info .btn{
+    background-color: #fff;
+    border: 5px #96BB7C;
+    color: #737373;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.Contact .Legal .btn{
+    background-color: #fff;
+    border: 5px #96BB7C;
+    color: #737373;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+
+.Contact .Features .btn{
+    background-color: #fff;
+    border: 5px #96BB7C;
+    color: #737373;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.Contact .Resources .btn{
+    background-color: #fff;
+    border: 5px #96BB7C;
+    color: #737373;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.Contact .Get_In_Touch .btn{
+    background-color: #fff;
+    border: 5px #96BB7C;
+    color: #737373;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.Contact .Company_info .more_btn{
+    background-color: #fff;
+    border: 5px #96BB7C;
+    color: #252B42;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.Contact .Legal .more_btn{
+    background-color: #fff;
+    border: 5px #96BB7C;
+    color: #252B42;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.Contact .Features .more_btn{
+    background-color: #fff;
+    border: 5px #96BB7C;
+    color: #252B42;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.Contact .Resources .more_btn{
+    background-color: #fff;
+    border: 5px #96BB7C;
+    color: #252B42;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.Contact .Get_In_Touch .more_btn{
+    background-color: #fff;
+    border: 5px #96BB7C;
+    color: #252B42;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.icons{
+    margin-left: 250px;
+    background-color: #fff;
+    width: 1,440px;
+    height: 74px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icons h6{
+    font-weight: 700;
+    width: 359px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.icons .social_media{
+    margin-left: 1050px;
+    margin-top: -25px;
+}
 /* ========================================================================= */
 /* адаптив (Медиа запросы) */
  @media screen and (max-width: 800px){
@@ -874,7 +1069,18 @@ margin-left: -650px;
     margin: 30px auto;
     text-align: center;
 }
+/* ====================================================================== */
+ /* 8  */
+.wrapper {
+    display: none;
+}
 /* ========================== */
+.icons h6{
+    display: none;
+}
+.Contact{
+    display: none;
+}
 .rol p{
     display: none;
 }
@@ -882,6 +1088,9 @@ margin-left: -650px;
     display: none;
 }
 .rol button{
+    display: none;
+}
+.fon{
     display: none;
 }
 /* =================================================================== */
@@ -915,11 +1124,12 @@ margin-left: -650px;
     }
 
     .hero--info h1 {
-        /* font-size: 58px;
-        font-weight: 700;
-        line-height: 80px;
-        letter-spacing: 0.2px;
-        margin-top: 40px; */
+        display: none;
+    }
+    .hero--info .fool h1 {
+        display: inLine;
+        direction: left;
+        text-align: left;
     }
 
     .hero--info h4 {
@@ -989,10 +1199,11 @@ margin-left: -650px;
     .treiding .gg {
         margin-top: -100px;
     }
-    .treiding li.btn {
+    .treiding li.btn{
         background: #ffffff;
-        padding: 50px 15px;
+        padding: 15px 40px;
         z-index: -1;
+        padding-top: 130px;
     }
     .lo a{
         color: #E74040;
@@ -1010,8 +1221,7 @@ margin-left: -650px;
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 140px 0px;
-    text-align: center;    
+    padding: 140px 440px;
     }
     .scool-prog {
         list-style: none;
@@ -1031,8 +1241,8 @@ margin-left: -650px;
 /* ====================================================================== */
 /* 3 часть  Моя ч*/
     .hero--infoo {
-        margin: -330px 0 0 650px;
-        margin-top: -300px;
+        margin: 0px 0 0 0px;
+        margin-top: 0px;
     }
     .hero--infoo .more_btn{
         border: 5px #96BB7C;
@@ -1047,6 +1257,9 @@ margin-left: -650px;
         margin-top: 30px;
     }
     .col{
+        display: none;
+    }
+    .hero--infoo img{
         display: none;
     }
 /* ====================================================================== */
@@ -1066,7 +1279,7 @@ margin-left: -650px;
         font-weight: 700;
         line-height: 50px;
         letter-spacing: 0.2px;
-        margin-top: 5px;
+        margin-top: -500px;
     }
 
     .hero-info p{
@@ -1077,16 +1290,20 @@ margin-left: -650px;
         line-height: 20px;
         letter-spacing: 0.2px;
         margin-top: 25px;
+        color: gray;
     }
 
     .hero-info .more_btn {
+        background-color: #fff;
         border: 5px #96BB7C;
+        color: #96BB7C;
         padding: 16px 30px;
         border-radius: 5px;
         transition: all 500ms ease;
         font-size: 18px;
-        margin-left: -30px;
-        margin-top: 40px;
+        /* margin-left: -300px; */
+        margin-top: 100px;
+        left: -200px; 
     }
 
     .hero-info .more_btn:hover {
@@ -1096,10 +1313,12 @@ margin-left: -650px;
 
     .hero-info .video{
         width: 500px;
-        position: relative;
+        position: static;
         margin-top: -700px;
-        left: 550px; 
+        left: 100px; 
         border-radius: 20px;
+        /* margin-left: 60px; */
+        margin-top: 70px;
     }
 /* ====================================================================== */
 /* 5 часть Его ч */
@@ -1112,6 +1331,7 @@ margin-left: -650px;
         margin-top: 100px;
         display: none;
     }
+    /*====================================================================== */
 /* 6 часть моя ч */
     .contaen.treiding{
         padding: 80px 0;
@@ -1140,7 +1360,7 @@ margin-left: -650px;
     }
     .trei .gg {
         margin-top: -100px;
-        margin: -150px 85px;
+        margin: -150px -50px;
     }
     .trei li.btn {
         background: #ffffff;
@@ -1247,38 +1467,9 @@ margin-left: -650px;
 
     }
 }
-/* ====================================================================== */
-/* 8 */
-.wrapper {
-    display: none;
-}
 
 /* ============================================================================================================================== */
 @media screen and (max-width: 480px){
 
-    header nav ul {
-        gap: 10px;
-    }
-    header nav ul li.btn a{
-        padding: 6px 12px;
-        font-size: 14px;
-    }
 
-    .hero--info h1 {
-        font-size: 24px;/*компактные заголовки*/
-    }
-
-    .hero--info .btn{
-        width: 100%;/*растягивает кнопку чтобы легко попасть */
-        max-width: 300px;/*ограничение по размерам*/
-    }
-
-    .hero--info p {
-        margin-left: 0;
-        text-align: center;
-        padding: 0 15px;
-    }
-    .carousel{
-        max-width: 1500px;
-    }
 }
